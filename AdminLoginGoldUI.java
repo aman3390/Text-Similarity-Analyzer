@@ -60,7 +60,7 @@ public class AdminLoginGoldUI extends JFrame {
         String username = usernameField.getText();
         String password = new String(passwordField.getPassword());
 
-        if (username.equals("khushi") && password.equals("khushi")) {
+        if (username.equals("aman3390") && password.equals("aman3390")) {
             JOptionPane.showMessageDialog(this, "Login Successful ✅", "Welcome", JOptionPane.INFORMATION_MESSAGE);
             dispose();
             new PlagiarismCheckerGUI(); // Open next screen
